@@ -1,0 +1,15 @@
+package com.company.repository;
+
+import java.util.List;
+
+import com.company.model.Product;
+
+public interface ProductRepository {
+	
+	Product saveProduct(Product product);
+	
+	List<Product> findProducts();
+	List<Product> findGreatPrice(double unitPrice);
+	
+	List<Object[]> findGroupByCategory();
+}

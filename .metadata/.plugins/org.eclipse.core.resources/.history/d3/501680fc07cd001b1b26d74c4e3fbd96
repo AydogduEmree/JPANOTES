@@ -1,0 +1,10 @@
+package com.company.repository.impl;
+
+import com.company.factory.JPAFactory;
+import com.company.factory.Impl.JPAFactImpl;
+
+public class ProductRepositoryImpl {
+	
+		private JPAFactory jpaFactory = new JPAFactImpl();
+		
+}

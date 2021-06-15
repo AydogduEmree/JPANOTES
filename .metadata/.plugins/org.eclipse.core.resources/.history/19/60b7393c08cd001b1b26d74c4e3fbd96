@@ -1,0 +1,18 @@
+package com.company.repository.impl;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityTransaction;
+
+import com.company.factory.JPAFactory;
+import com.company.factory.Impl.JPAFactImpl;
+import com.company.repository.ProductRepository;
+
+public class ProductRepositoryImpl implements ProductRepository {
+	
+		private JPAFactory jpaFactory = new JPAFactImpl();
+		
+		private EntityManager manager = jpaFactory.getEntityManager();
+		
+		private EntityTransaction entityTransaction = jpaFactory.getEntityTransaction();
+		
+}

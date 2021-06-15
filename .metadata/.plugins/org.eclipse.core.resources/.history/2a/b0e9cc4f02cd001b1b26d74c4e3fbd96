@@ -1,0 +1,37 @@
+package com.company.model;
+
+import java.util.Date;
+
+public class Product {
+	
+	private int productId;
+	
+	private String name;
+	
+	private double unitPrice;
+	
+	private int available;
+	
+	private Brand brand;
+	
+	private Category category;
+	
+	private Date createdDate;
+	
+	private Date updatedDate;
+	
+	public Product() {
+		
+	}
+
+	public Product(String name, double unitPrice, int available, Brand brand, Category category, Date createdDate) {
+		this.name = name;
+		this.unitPrice = unitPrice;
+		this.available = available;
+		this.brand = brand;
+		this.category = category;
+		this.createdDate = createdDate;
+	}
+	
+	
+}

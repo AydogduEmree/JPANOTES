@@ -1,0 +1,8 @@
+package com.company.queries;
+
+public class ProductQueries {
+	
+	public static final String findProductsAll = "SELECT P.* FROM PRODUCT P WHERE P.UNIT_PRICE > :UNIT_PRICE";
+
+	public static final String findProducts = "SELECT P.* FROM PRODUCT P WHERE P.UNIT_PRICE > :UNIT_PRICE";
+}

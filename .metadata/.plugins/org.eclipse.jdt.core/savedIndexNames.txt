@@ -1,0 +1,19 @@
+INDEX VERSION 1.131+C:\NJResources\JPA\.metadata\.plugins\org.eclipse.jdt.core
+3131384585.index
+2129995973.index
+841990843.index
+2921653386.index
+2028146254.index
+1486772925.index
+537774331.index
+284841252.index
+1799637388.index
+2051889094.index
+3349359892.index
+2925848407.index
+2729162684.index
+4009562983.index
+2375657622.index
+4023340982.index
+3616242813.index
+4176297948.index

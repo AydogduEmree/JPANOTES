@@ -1,0 +1,11 @@
+package com.company.queries;
+
+public class ProductQueries {
+	
+	public static final String findProductsAll = "SELECT p FROM product p";
+
+	public static final String findProducts = "SELECT P FROM PRODUCT P WHERE P.unitPrice > :unitPrice";
+
+	public static final String findGroupByCategory = "SELECT P.category, p.categoryName, AVG(p.unitPrice) FROM PRODUCT P Group by p.category, p.categoryName";
+
+}
